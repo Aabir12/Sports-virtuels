@@ -1,0 +1,223 @@
+
+body{
+    margin: 0  auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #734AF6;
+    color: white;
+    padding: 0 40px;
+    letter-spacing: 0.08em;
+}
+nav > div{
+    display: flex;
+    align-items: center;
+}
+nav  ul {
+    display: flex;
+    gap: 2em;
+    list-style: none;
+}
+nav  ul a {
+    text-decoration: none;
+    color: white;
+    transition: 100ms;
+    cursor: pointer;
+
+}
+nav  ul a:hover {
+    transform: scale(1.2);
+    color: greenyellow;
+}
+
+.hero-section {
+    height: 50vh;
+    position: relative;
+    width: 100%;
+    background-image: url("../assets/image\ \(1\).jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.glassy-div{
+    color: white;
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    background: rgba(129, 95, 238, 0.17);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.8px);
+    -webkit-backdrop-filter: blur(2.8px);
+    border: 1px solid rgba(129, 95, 238, 1);
+    
+}
+.glassy-div h2{
+    text-shadow: 0px 8px 10px rgb(97, 23, 89);
+    font-size: 2em;
+    text-align: center;
+}
+.glassy-div p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.609);
+}
+.wrapper{
+    width: 400px;
+    margin: 0 auto;
+  box-sizing: 10px 10px 10px solid #5825ff;
+  
+}
+
+.wrapper a{
+  display: block;
+    padding: 0 20px ;
+    border-radius: 8px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #5825ff;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+  color: white;
+}
+
+.wrapper a span{
+  position: relative;
+  z-index: 2;
+  
+}
+
+.wrapper a:after{
+  position: absolute;
+  content: "";  
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #5825ff;
+ 
+  transition: all .35s;
+}
+
+.wrapper a:hover{
+  color: #000000;
+  
+}
+
+.wrapper a:hover:after{
+  width: 100%;
+  
+}
+
+
+/* ------------------------------------------------------------------------------ */
+main{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+.about-us-content{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+.about-us-content h2 {
+    font-size: 2em;
+}
+.about-us-content p {
+    border-bottom:1px solid #5825ff;
+    margin-bottom: 4em;
+}
+.nous-proposons{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    background: #f6f3ff;
+    padding: 2em;
+    border-radius: 16px;
+}
+.nous-proposons div{
+    width: 50%;
+}
+.nous-proposons ul li{
+
+    line-height: 1.5em;
+}
+.nous-proposons img{
+    width: 100%;
+    border-radius: 16px;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+footer{
+    background-color: black;
+    color: white;
+
+    
+}
+.coordonee  {
+    text-align: center;
+    display: flex ;
+    align-items: center;
+    padding: 0 15em;
+    justify-content: space-between;
+}
+.address-number{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.coordonee h3{
+    width: 100%;
+    font-size: 2em;
+    text-align: center;
+}
+.address-number div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 3em;
+    letter-spacing: 0.1em;
+}
+.contact-social-media{
+    display: flex;
+    width: 100%;
+    margin-top: 25px;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+}
+.contact-social-media a {
+    text-decoration: none;
+    cursor: pointer;
+    transition: 300ms;
+}
+.contact-social-media a:hover{
+    transform: scale(1.5);
+}
+.copy-write p {
+    text-align: center;
+    margin: 0;
+    font-size: 1.2em;
+    padding: 10px 0;
+}
+
+
