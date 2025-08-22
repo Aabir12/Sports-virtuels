@@ -41,26 +41,99 @@ nav  ul a:hover {
 .hero-section {
     height: 50vh;
     width: 100%;
-    background-image: url("../assets/image\ \(1\).jpg");
+    background-image: url("../assets/deux-manettes.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
+
+.glassy-div{
+    color: white;
+    width: 40%;
+    margin: 0 auto;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(129, 95, 238, 0.17);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.8px);
+    -webkit-backdrop-filter: blur(2.8px);
+    border: 1px solid rgba(129, 95, 238, 1);
+   
+}
+.glassy-div h2{
+    text-shadow: 0px 8px 10px rgb(97, 23, 89);
+    font-size: 2em;
+    text-align: center;
+}
+.glassy-div p {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.609);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* -----------------------GOUNDO  */
-.bloc {
-width: 60%;
-height: 50%;
-display: flex;
+.texte {
+justify-content: flex-start;
+margin: 150px;
+text-align: left;
+background-color: rgb(203, 196, 196);
 
 
 }
 
 .image2 {
-width: 60%;
-height: 60%;
+justify-content: end;
+height: 600px;
 
 
 }
+
+.bloc {
+display: flex;
+margin: 20px;
+
+
+}
+        
+.texte {
+
+padding: 50px;
+
+}
+
+
 
 /* ----------------------GOUNDO  */
 footer{
