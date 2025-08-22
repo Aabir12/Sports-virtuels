@@ -64,6 +64,7 @@ nav  ul {
     place-items: center;
     padding: 8px;
     border-radius: 10px;
+    justify-items: stretch
 }
 
 .card img {
