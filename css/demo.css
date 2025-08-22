@@ -21,6 +21,16 @@ nav  ul {
     gap: 2em;
     list-style: none;
 }
+nav  ul a {
+    text-decoration: none;
+    color: white;
+    transition: 100ms;
+    cursor: pointer;
+}
+nav  ul a:hover {
+    transform: scale(1.2);
+    color: greenyellow;
+}
 .hero-section {
     height: 50vh;
     width: 100%;
@@ -36,10 +46,53 @@ main{
 footer{
     background-color: black;
     color: white;
-    display: flex ;
+
     
 }
-footer div {
-    width: 30%;
+.coordonee  {
     text-align: center;
+    display: flex ;
+    align-items: center;
+    padding: 0 15em;
+    justify-content: space-between;
+}
+.address-number{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.coordonee h3{
+    width: 100%;
+    font-size: 2em;
+    text-align: center;
+}
+.address-number div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 3em;
+    letter-spacing: 0.1em;
+}
+.contact-social-media{
+    display: flex;
+    width: 100%;
+    margin-top: 25px;
+    gap: 35px;
+    justify-content: center;
+    align-items: center;
+}
+.contact-social-media a {
+    text-decoration: none;
+    cursor: pointer;
+    transition: 300ms;
+}
+.contact-social-media a:hover{
+    transform: scale(1.5);
+}
+.copy-write p {
+    text-align: center;
+    margin: 0;
+    font-size: 1.2em;
+    padding: 10px 0;
 }
